@@ -1,67 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prework Study Guide</title>
-  <link rel="stylesheet" href="./assets/style.css" />
-</head>
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img src="./assets/bowtie-cat.png" alt="cat icon" />
+      <h2 class="console">✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <LI>The &lt;style&gt; element defines the CSS styles associated with a website.</LI>
+          <li>The &lt;head&gt; element contains metadata, that helps browsers to render the page correctly.</li>
+          <LI>The&lt;link&gt; element connects an external resource to the HTML document.</LI>
+          <li>The &lt;meta&gt; element defines metadata like character set, keywords, and viewport.</li>
+          <li>The &lt;title&gt; tag defines the title of the document.</li>
+          <li>
+            The &lt;body&gt; element represents the visible content shown to the user.
+          </li>
+          <li>The &lt;footer&gt; tag defines a footer for a document or section.</li>
+        </ul>
+      </section>
 
-<body>
-  <header id="top">
-    <h1>Prework Study Guide</h1>
-    <img src="./assets/bowtie-cat.png" alt="image of cat wearing a bow tie." />
-  </header>
-  <main>
-    <section class="card" id="html-section">
-      <h2>HTML</h2>
-      <ul>
-        <li>The head element contains information about the webpage.</li>
-        <li>The title tag defines the title of the document.</li>
-        <li>The body element represents the visible content shown to the user.</li>
-        <li>The footer tag defines a footer for a document or section.</li>
-      </ul>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>The border property allows you to specify the style, width, and color of an element's border.
 
-    </section>
+          </li>
+          <li>The box-shadow property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</li>
+          <li>Assigning colors in CSS can be done in many ways, including by semantic references such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #.</li>
+        </ul>
+      </section>
 
-    <section class="card" id="css-section">
-      <h2>CSS</h2>
-      <ul>
-        <li>Enter your CSS notes here</li>
-      </ul>
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>
+            git status: checks what branch we are currently on. We can also use
+            it for checking out files and commits.
+          </li>
+          <li>
+            git checkout -b branch-name: creates a new branch and switches to it
+          </li>
+          <li>
+            git clone:Git clone is a command for downloading existing source
+            code from a remote repository (like Github, for example).
+          </li>
+          <li>
+            git branch:We can use the git branch command for creating, listing
+            and deleting branches.
+          </li>
+          <li>
+            git add:We can use the git add command to include changes we made
+            into our next commit
+          </li>
+        </ul>
+      </section>
 
-    </section>
+      <section class="card" id="javascript-section">
+        <h2>Javascript</h2>
+        <ul>
+          <li>
+            A variable is a named container that allows us to store data in our
+            code.
+          </li>
+          <li>
+            Control flow is the order in which a computer executes code in a
+            script.
+          </li>
+          <li>
+            A function is a set of instructions that tells the computer how to
+            perform a certain task.
+          </li>
+          <li>
+            Arrays are tools for storing multiple items with different data
+            types in a single Variable
+          </li>
+          <li>
+            If statements are conditional statements that tell a computer what
+            to do with certain information
+          </li>
+          <li>
+            A for loop is a control flow statement for specifying iteration,
+            which allows code to be executed repeatedly.
+          </li>
+        </ul>
+      </section>
+    </main>
 
-    <section class="card" id="git-section">
-      <h2>Git</h2>
-      <ul>
-        <li>git status: checks what branch we are currently on. We can also use it for checking out files and commits.
-        </li>
-        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        <li>git clone:Git clone is a command for downloading existing source code from a remote repository (like Github,
-          for example).</li>
-        <li>git branch:We can use the git branch command for creating, listing and deleting branches.</li>
-        <li>git add:We can use the git add command to include changes we made into our next commit</li>
-
-      </ul>
-
-    </section>
-
-    <section class="card" id="javascript-section">
-      <h2>Javascript</h2>
-      <ul>
-        <li>Enter your JavaScript notes here</li>
-      </ul>
-
-    </section>
-
-  </main>
-
-  <footer>
-    <p>I can code!</p>
-  </footer>
-</body>
-
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
 </html>
